@@ -1,0 +1,167 @@
+/*** Introduction Section for About Us ***/
+.about-us-side-text, p.contact-info{
+	text-align: justify;
+	line-height: 2;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #28272c;
+}
+
+.about-us-header, .services-header, .rates-header, .contact-header{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 50%;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 210%;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 460px){
+	.about-us-header, .services-header, .contact-header, .rates-header{
+		font-size: 160%;
+	}
+}
+
+/*** Header ***/
+ .article-heading{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 160%;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #28272c;
+	text-transform: uppercase;
+ }
+ 
+ /*** Icons with Text Section ***/
+ .icon-heading{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 160%;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+	color: #28272c;
+	text-transform: uppercase;
+	margin-top: 15px;
+ }
+ 
+ .icon-text{	
+	text-align: justify;
+	line-height: 1.5;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #28272c;
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.about-us-icons, .service-icons{
+	zoom: 60%;
+}
+
+.icon-text-section img.img-responsive{
+	display: unset !important;
+	
+}
+
+.icon-text-section .learn-more-btn{
+    height: 25px;
+    background-color: #28272c;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.icon-text-section .learn-more-btn span.learn-more-btn-content{
+    color: #fff;
+    font-size: 70%;
+    font-family: 'Merriweather Sans',sans-serif;
+}
+
+.icon-text-section a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/*** Wrapper ***/
+.wrapper{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px){
+	.wrapper{
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-bottom: 20px;
+}
+}
+
+/*** Margin ***/
+.icon-text-section, .explore-our-services-section, .schedule-meet-greet, .contact-form{
+    margin-top:40px;
+}
+
+/*** Schedule Meet & Greet Form ***/
+
+input[type="text"].meetgreetform{
+	width: 100%;
+	border: 1px solid #28272c;
+	height: 40px;
+	padding-left: 10px;
+}
+
+input[type="text"].meetgreetform::-webkit-input-placeholder, input[type="textarea"].meetgreetformmessage::-webkit-input-placeholder{
+	color: #737373 !important;
+	text-align: left;
+}
+
+input[type="textarea"].meetgreetformmessage{
+	width: 100%;
+	height: 110px;
+	border: 1px solid #28272c;
+	padding-left: 10px;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: #737373;
+    background-color: #fcfcfd;
+    outline: 0 none;
+	
+}
+
+/*** Service Page/Section ***/
+.service-btn, .contact-btn, .submit-request-btn{
+	background-color: #28272c;
+	height: 40px;
+	position: relative;
+}
+
+.service-btn:hover .service-btn-content, .contact-btn:hover .contact-btn-content, .submit-request-btn:hover .submit-request-btn-content, .icon-text-section .learn-more-btn:hover .learn-more-btn-content{
+	color: #e6e6e6;
+
+}
+
+.service-btn-content, .contact-btn-content, .submit-request-btn-content{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	font-size: 95%;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.service-heading, .contact-heading, .explore-services-heading, .schedule-meet-greet-heading{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: 160%;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	color: #28272c;
+	text-transform: uppercase;
+	margin-top: 15px;
+}

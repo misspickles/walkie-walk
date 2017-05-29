@@ -1,0 +1,46 @@
+/*** Contact Form ***/
+
+.contact-form{
+	width: 70%;
+}
+
+input[type="text"].contact-form-content{
+	width: 100%;
+	border: 1px solid #28272c;
+	height: 40px;
+	padding-left: 10px;
+	
+}
+
+input[type="text"].contact-form-content::-webkit-input-placeholder, input[type="textarea"].contact-form-mmessage::-webkit-input-placeholder{
+	color: #737373 !important;
+	text-align: left;
+}
+
+input[type="textarea"].contact-form-message{
+	width: 100%;
+	height: 110px;
+	border: 1px solid #28272c;
+	padding-left: 10px;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: #737373;
+    background-color: #fcfcfd;
+    outline: 0 none;
+	
+}
+
+ul.contact-list{
+	text-align: left;
+	list-style:none;
+	padding-left:0;
+	padding-top: 10px;
+}
+
+ul.contact-list li{
+	font-weight: 600;
+	line-height: 2;
+}
+
+
