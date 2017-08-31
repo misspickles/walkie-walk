@@ -28,6 +28,7 @@
  .article-heading{
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	font-size: 160%;
+	font-weight: 800;
 	letter-spacing: 3px;
 	text-align: center;
 	margin-top: 40px;
@@ -39,7 +40,7 @@
  /*** Icons with Text Section ***/
  .icon-heading{
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
-	font-size: 160%;
+	font-size: 130%;
 	letter-spacing: 3px;
 	margin-bottom: 15px;
 	color: #28272c;
@@ -164,4 +165,5 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 	color: #28272c;
 	text-transform: uppercase;
 	margin-top: 15px;
+	font-weight: 600;
 }
