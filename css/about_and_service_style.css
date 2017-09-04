@@ -103,7 +103,7 @@
 }
 
 /*** Margin ***/
-.icon-text-section, .explore-our-services-section, .schedule-meet-greet, .contact-form{
+.icon-text-section, .how-does-it-work-section, .explore-our-services-section, .schedule-meet-greet, .contact-form{
     margin-top:40px;
 }
 
@@ -157,13 +157,51 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
-.service-heading, .contact-heading, .explore-services-heading, .schedule-meet-greet-heading{
+.service-heading, .how-does-it-work-heading, .contact-heading, .explore-services-heading, .schedule-meet-greet-heading{
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	font-size: 160%;
 	letter-spacing: 3px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	color: #28272c;
 	text-transform: uppercase;
 	margin-top: 15px;
 	font-weight: 600;
+}
+
+/*** How Does it Work Section ***/
+.how-does-it-work-section{
+	line-height: 2;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #28272c;
+	margin-bottom: 60px;
+}
+
+.how-does-it-work-section ul{
+	list-style:none;
+    padding-left:0;
+	 text-align: left;
+    list-style-position: inside;
+}
+
+a.bullet{
+	position: relative;
+	font-size: 120%;
+	font-weight: 600; 
+	color: #000 !important;
+	padding-right: 10px;
+}
+
+a.bullet:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+ p.small-text{
+	font-size: 80%;
+}
+
+ p.phone-number{
+	color: #626364;
+	display:inline;
+	border-bottom: 1px solid #626364;
 }
