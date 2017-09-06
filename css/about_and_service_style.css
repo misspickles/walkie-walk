@@ -31,7 +31,7 @@
 	font-weight: 800;
 	letter-spacing: 3px;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 70px;
 	margin-bottom: 30px;
 	color: #28272c;
 	text-transform: uppercase;
@@ -103,8 +103,12 @@
 }
 
 /*** Margin ***/
-.icon-text-section, .how-does-it-work-section, .explore-our-services-section, .schedule-meet-greet, .contact-form{
-    margin-top:40px;
+.how-does-it-work-section, .explore-our-services-section, .schedule-meet-greet, .contact-form{
+    margin-top: 70px;
+}
+
+.icon-text-section{
+	margin-top: 50px;
 }
 
 /*** Schedule Meet & Greet Form ***/
