@@ -247,10 +247,17 @@ footer{
 	background-color: #f8f8f9;
 }
 
+footer div.row{
+	width: 80%;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
+
 .footer-list{
 	line-height: 2;
 	text-decoration: none;
 	text-align: center;
+	padding: 0px;
 }
 
 .footer-list a, .footer-list >li{
@@ -309,9 +316,19 @@ li.footer-social-first{
 		width: 100%;
 	}
 	
-	.footer-col{
-		width: 33.33%;
+	#footer-services{
+		width: 30%;
 		float: left;
+	}
+	
+	#footer-contact{
+		float: left;
+		width: 40%;
+	}
+	
+	#footer-connect{
+		float: left;
+		width: 30%;
 	}
 	
 	.footer-list{
